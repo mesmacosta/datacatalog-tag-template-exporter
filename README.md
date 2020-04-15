@@ -107,6 +107,6 @@ datacatalog-tag-template-exporter tag-templates export --project-ids my-project 
 [3]: https://virtualenv.pypa.io/en/latest/
 [7]: https://img.shields.io/pypi/v/datacatalog-tag-template-exporter.svg
 [8]: https://pypi.org/project/datacatalog-tag-template-exporter/
-[9]: https://img.shields.io/github/license/mesmacosta/datacatalog-tag-template-exporter.svg
+[9]: https://img.shields.io/github/license/mesmacosta/datacatalog-tag-template-exporter.svg?force_cache=true
 [10]: https://img.shields.io/github/issues/mesmacosta/datacatalog-tag-template-exporter.svg
 [11]: https://github.com/mesmacosta/datacatalog-tag-template-exporter/issues
