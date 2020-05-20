@@ -28,7 +28,7 @@ class TagManagerCLITest(unittest.TestCase):
                 'tag_template_datasource_exporter.'
                 'TagTemplateDatasourceExporter')
     def test_run_export_tag_templates_should_call_correct_method(
-        self, mock_tag_template_datasource_exporter):  # noqa: E125
+            self, mock_tag_template_datasource_exporter):  # noqa: E125
 
         datacatalog_tag_template_exporter_cli.DatacatalogTagTemplateExporterCLI.run([
             'tag-templates', 'export', '--file-path', 'test.csv', '--project-ids',
