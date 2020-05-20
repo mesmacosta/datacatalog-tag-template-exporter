@@ -6,6 +6,20 @@ A Python package to manage Google Cloud Data Catalog Tag Template export scripts
 
 **Disclaimer: This is not an officially supported Google product.**
 
+<!--
+  ⚠️ DO NOT UPDATE THE TABLE OF CONTENTS MANUALLY ️️⚠️
+  run `npx markdown-toc -i README.md`.
+
+  Please stick to 80-character line wraps as much as you can.
+-->
+
+## Table of Contents
+
+<!-- toc -->
+<!-- tocstop -->
+
+-----
+
 ## Executing in Cloud Shell
 ````bash
 # Set your SERVICE ACCOUNT, for instructions go to 1.3. Auth credentials
@@ -63,7 +77,6 @@ Docker may be used as an alternative to run the script. In this case, please dis
 #### 1.3.1. Create a service account and grant it below roles
 
 - Data Catalog Admin
-- Storage Admin
 
 #### 1.3.2. Download a JSON key and save it as
 This name is just a suggestion, feel free to name it following your naming conventions
