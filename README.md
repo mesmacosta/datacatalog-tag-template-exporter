@@ -90,9 +90,9 @@ _This step may be skipped if you're using [Docker](#12-docker)._
 export GOOGLE_APPLICATION_CREDENTIALS=~/credentials/datacatalog-tag-template-exporter-sa.json
 ```
 
-## 5. Export Templates to CSV file
+## 2. Export Templates to CSV file
 
-### 5.1. A CSV file representing the Templates will be created
+### 2.1. A CSV file representing the Templates will be created
 
 Templates are composed of as many lines as required to represent all of their fields. The columns are
 described as follows:
@@ -106,7 +106,7 @@ described as follows:
 | **field_type**         | Type of the Tag Template field.                | 
 | **enum_values**        | Values for the Enum field.                     | 
 
-### 5.2. Run the datacatalog-tag-template-exporter script
+### 2.2. Run the datacatalog-tag-template-exporter script
 
 - Python + virtualenv
 
@@ -120,6 +120,6 @@ datacatalog-tag-template-exporter tag-templates export --project-ids my-project 
 [3]: https://virtualenv.pypa.io/en/latest/
 [7]: https://img.shields.io/pypi/v/datacatalog-tag-template-exporter.svg
 [8]: https://pypi.org/project/datacatalog-tag-template-exporter/
-[9]: https://img.shields.io/github/license/mesmacosta/datacatalog-tag-template-exporter.svg
+[9]: https://img.shields.io/github/license/mesmacosta/datacatalog-tag-template-exporter.svg?force_cache=true
 [10]: https://img.shields.io/github/issues/mesmacosta/datacatalog-tag-template-exporter.svg
 [11]: https://github.com/mesmacosta/datacatalog-tag-template-exporter/issues
